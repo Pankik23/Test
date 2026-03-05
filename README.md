@@ -18,11 +18,11 @@ git push -u origin main //上传本地仓库
 # github -> 本地   
 git pull   
 # 分支  
-git checkout -b feature  
+git checkout -b feature_new  
 git add Testing/  
 git commit -m "添加新文件到新分支"  
-git push -u origin feature   
-git merge feature  
+git push -u origin feature_new  //第一次使用需要-u   
+git merge feature  //合并分支   
 git branch -D feature   //删除本地分支  
 git push origin --delete feature    //删除远程分支  
   
